@@ -7,6 +7,6 @@ public class Main {
 
         String password = new String(scanner.nextLine());
 
-
+        System.out.println("Your hashed password is:  " + password.hashCode());
     }
 }
